@@ -15,6 +15,3 @@ COPY . .
 
 # Expose the port your Node.js app is listening on (if applicable)
 # EXPOSE 8080
-
-# Start the Node.js app when the container is run
-CMD ["npm", "start"]
